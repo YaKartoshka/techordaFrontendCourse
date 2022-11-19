@@ -1,0 +1,8 @@
+label{
+    display: block;
+    margin: 10px;
+}
+
+table,th,td {
+    border:2px solid grey;
+  }
