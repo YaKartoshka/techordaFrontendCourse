@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.login_form{
+    width: 560px;
+    height: 400px;
+    position: relative;
+    margin: 80px auto;
+    background: #fff;
+    padding: 5px;
+    overflow: hidden;
+    border-style: solid;
+    border-radius: 50px;
+    border-color: black;
+    border-width: 5px;
+}
+
+.login_form form {
+    margin: 100px auto;
+    width: 80%;
+    font-size: 20px;
+    
+    
+}
+
+button:hover{
+    background-color: aliceblue;
+}
+
+label{
+    display: block;
+    margin: 10px;
+}
