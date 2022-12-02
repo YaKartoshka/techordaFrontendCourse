@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <style>
+        #signup-btn{
+            width: 70px;
+            margin-bottom: 10px;
+        }
+    </style>
+    <title>Registration</title>
+</head>
+<body>
+    <div class="reg_form">
+        <form action="login.html" method="get">
+            <fieldset>
+                <legend>Registration form</legend>
+                <label for="username"><input type="text" id="username">Enter your username</label>
+                <label for="email"><input type="email" id="email">Enter your email</label>
+                <label for="password"><input type="password" id="password">Enter your password</label>
+                <label for="date"><input type="date" id="date">Enter your date of birth </label>
+                <label for="phone_number"><input type="tel" id="phone_number">Enter your phone number</label>
+                <label for="age_check"><input type="checkbox" id="age_check">Are you older than 18</label>
+                <label for="male"><input type="radio" id="male">Male</label>
+                <label for="female"><input type="radio" id="female">Female</label>
+            </fieldset>
+            <fieldset style="text-align: center;">
+                <button type="submit" id="signup-btn" >Sign up</button>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
