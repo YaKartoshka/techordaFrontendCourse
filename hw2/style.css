@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: brown;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+}
+
+#navbar{
+    display: flex;
+    background-color: aliceblue;
+}
+
+#navbar > a{
+    margin: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    
+}
+
+#navbar > a:hover{
+    font-size: 21px;
+    color: red  ;
+    text-decoration: none;
+}
+
+#table_id{
+    margin: 20px;
+}
+
+#table_id  ~  section {
+    background-color: gray;
+    border: 5px solid ;
+    border-radius: 20px;
+}
+
+#lists{
+    margin: 30px;
+}
+
+#lists ul,ol,dl {
+    margin: 30px;
+}
+
+#lists li {
+    font-size: 18px;
+}
