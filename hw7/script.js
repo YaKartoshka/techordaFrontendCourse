@@ -2,6 +2,7 @@ var posts = document.getElementById("posts");
 
 async function showPosts() {
   var commments = await getComments();
+  console.log(commments)
   $.ajax({
     url: "https://jsonplaceholder.typicode.com/posts",
     type: "get",

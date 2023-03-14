@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+    <title>Posts</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body ng-app="myApp" ng-controller="myCtrl">
+    <div class="main_title">Posts by Erasyl</div>
+    <div class="posts" id="posts" ng-repeat="x in data">
+      <div class="post" id="100">
+        <h1 class="title">{{x.title}}</h1>
+        <p class="post_text">{{x.body}}</p>
+        <h2>Comments:</h2>
+        <div class="post_comments">
+          <div ng-repeat="comment in getComments(x.id)">
+            <h3>{{comment.email}}</h3>
+            <p>{{comment.body}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
